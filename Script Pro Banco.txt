@@ -1,0 +1,22 @@
+create table CarroSemi(
+   id integer not null,
+   modelo  varchar(100) not null,
+   marca varchar(100) not null,
+   ano integer not null,
+    preco varchar(20)  not null);
+
+  id integer not null,
+   modelo  varchar(100) not null,
+   marca varchar(100) not null,
+   ano integer not null,
+    preco varchar(20)  not null);
+
+create table Cliente(
+	cpf varchar(16),
+	nome varchar(100),
+	nascimento varchar(16));
+
+GRANT ALL PRIVILEGES ON concessionaria.* TO root@'localhost' IDENTIFIED BY 'root'
+jdbc:mysql://localhost:3306/concessionaria
+
+466.453.418-30
